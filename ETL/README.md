@@ -7,7 +7,7 @@ Foi realizado uma integração de dados em Python com o objetivo final de constr
 ## Estrutura do repositório
 O repositório está organizado da seguinte forma:
 
-integracaodeDados.ipynb :arquivo principal em formato de notebook
+integracaodeDados.ipynb:arquivo principal em formato de notebook
 
 diagramas: contém os diagramas DER referente ao Data Warehouse e ao Operational Data Store
 
