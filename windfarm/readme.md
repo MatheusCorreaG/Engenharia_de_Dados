@@ -16,4 +16,4 @@ fluxograma: Contém o mapeamento do pipeline construído
 dataset: Contém o dataset gerado pelo Amazon Athena após consultar todos os dados gerados.
 
 ## Créditos
-Este projeto foi proposto pelo professor Fernando Amaral, através do curso formação Engenheiro de dados, no qual visa propor aos alunos uma imersão de como um engenheiro de dados atua na prática.
+Este projeto foi proposto pelo professor Fernando Amaral, através do curso formação Engenharia de Dados, no qual visa propor aos alunos uma imersão de como um engenheiro de dados atua na prática.
