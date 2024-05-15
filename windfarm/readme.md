@@ -1,4 +1,4 @@
-# Criação de um DataLake com dados em tempo real
+# DataLake com dados em tempo real
  
 ## Descrição
 Este projeto tem como objetivo a criação de um Data Lake para simular o monitoramento de uma usina eólica, com dados gerados em tempo real utilizando uma aplicação em Python. A aplicação gera dados referentes ao fator de potência, temperatura da bateria e pressão hidráulica.
