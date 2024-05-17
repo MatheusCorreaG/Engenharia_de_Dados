@@ -1,19 +1,22 @@
 # DataLake com dados em tempo real
  
-## DescriÁ„o
-Este projeto tem como objetivo a criaÁ„o de um Data Lake para simular o monitoramento de uma usina eÛlica, com dados gerados em tempo real utilizando uma aplicaÁ„o em Python. A aplicaÁ„o gera dados referentes ao fator de potÍncia, temperatura da bateria e press„o hidr·ulica.
+## Descri√ß√£o
+Este projeto tem como objetivo a cria√ß√£o de um Data Lake para simular o monitoramento de uma usina e√≥lica, com dados gerados em tempo real utilizando uma aplica√ß√£o em Python. A aplica√ß√£o gera dados referentes ao fator de pot√™ncia, temperatura da bateria e press√£o hidr√°ulica.
 
-Os registros, criados por diferentes scripts em Python, s„o extraÌdos pelo Amazon Kinesis Data Streams e transmitidos para o Amazon S3 atravÈs do Amazon Kinesis Data Firehose. ApÛs a ingest„o, os dados s„o transformados para o formato Parquet e transportados para um outro bucket no Amazon S3. Finalmente, esses dados s„o analisados utilizando o Amazon Athena.
+Os registros, criados por diferentes scripts em Python, s√£o extra√≠dos pelo Amazon Kinesis Data Streams e transmitidos para o Amazon S3 atrav√©s do Amazon Kinesis Data Firehose. Ap√≥s a ingest√£o, os dados s√£o transformados para o formato Parquet e transportados para um outro bucket no Amazon S3. Finalmente, esses dados s√£o analisados utilizando o Amazon Athena.
 
-O objetivo do pipeline È obter uma an·lise eficiente e em tempo real dos dados operacionais de uma usina eÛlica, demonstrando a capacidade de um Data Lake de gerenciar grandes volumes de dados de forma escal·vel e eficaz.
-## Estrutura do repositÛrio
-O repositÛrio est· organizado da seguinte forma:
+O objetivo do pipeline √© obter uma an√°lise eficiente e em tempo real dos dados operacionais de uma usina e√≥lica, demonstrando a capacidade de um Data Lake de gerenciar grandes volumes de dados de forma escal√°vel e eficaz.
 
-scripts: Arquivos ipynb contendo os scripts de geraÁ„o dos dados em tempo real
+![fluxograma](https://github.com/MatheusCorreaG/Engenharia_de_Dados/assets/70293461/87a037ff-9449-42ea-b141-cb7815beee55)
 
-fluxograma: ContÈm o mapeamento do pipeline construÌdo
+## Estrutura do reposit√≥rio
+O reposit√≥rio est√° organizado da seguinte forma:
 
-dataset: ContÈm o dataset gerado pelo Amazon Athena apÛs consultar todos os dados gerados.
+scripts: Arquivos ipynb contendo os scripts de gera√ß√£o dos dados em tempo real
 
-## CrÈditos
-Este projeto foi proposto pelo professor Fernando Amaral, atravÈs do curso formaÁ„o Engenharia de Dados, no qual visa propor aos alunos uma imers„o de como um engenheiro de dados atua na pr·tica.
+fluxograma: Cont√©m o mapeamento do pipeline constru√≠do
+
+dataset: Cont√©m o dataset gerado pelo Amazon Athena ap√≥s consultar todos os dados gerados.
+
+## Cr√©ditos
+Este projeto foi proposto pelo professor Fernando Amaral, atrav√©s do curso forma√ß√£o Engenharia de Dados, no qual visa propor aos alunos uma imers√£o de como um engenheiro de dados atua na pr√°tica.
